@@ -1,0 +1,47 @@
+.ant-checkbox-inner {
+  border-radius: 3px;
+}
+
+.ant-btn-primary {
+  min-height:40px;
+  border: 1px solid #0EB366;
+}
+
+.ant-btn-default {
+  min-height:40px;
+  color:#0EB366;
+  border: 1px solid #0EB366;
+}
+
+.ant-btn-dangerous {
+  border: 1px solid #FF4554;
+  color: #FF4554;
+}
+
+.ant-popover-inner-content {
+  padding: 0;
+}
+
+table:hover,
+tr:hover,
+thead:hover {
+    background: none !important;
+}
+
+/*==============================================================
+  Ant Design Overrides on User information page
+==============================================================*/
+.user-info, .kyc-document-modal-fields {
+  .ant-input[disabled], .ant-input-disabled {
+    color: #000000;
+  }
+  .ant-input-affix-wrapper-disabled,
+  .ant-input-affix-wrapper-disabled .ant-input-suffix,
+  .ant-checkbox-wrapper-disabled  {
+    cursor: default;
+  }
+
+  .ant-select-disabled .ant-select-selector {
+    color: #000000 !important;
+  }
+}
